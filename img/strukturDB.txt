@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS recipes ( 
+  id tinyint(3) NOT NULL AUTO_INCREMENT, 
+  name varchar(64) NOT NULL, 
+  preparation text NOT NULL, 
+  picture varchar(255) NOT NULL, //varchar mit url die auf Bild zeigt, Random-Funktion von mysql
+  PRIMARY KEY (id) 
+) 
+
+CREATE TABLE IF NOT EXISTS recipes_ingredients ( 
+  id smallint(4) NOT NULL AUTO_INCREMENT, 
+  recipes_id tinyint(3) NOT NULL, 
+  ingredients_id tinyint(3) NOT NULL, 
+  amount smallint(4) NOT NULL, 
+  unit char(2) NOT NULL, 
+  PRIMARY KEY (id) 
+) 
+
+CREATE TABLE IF NOT EXISTS ingredients ( 
+  id tinyint(3) NOT NULL AUTO_INCREMENT, 
+  name varchar(64) NOT NULL, 
+  PRIMARY KEY (id) 
+) 

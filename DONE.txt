@@ -1,0 +1,19 @@
+1.) Git aufgeräumt, sodass nur die Dateien, die sich aufs Projekt beziehen im Ordner sind.
+
+2.) Ich habe Header + Footer jeweils in ein eigenes Dokument ausgelagert und dieses dann in
+	alle php-Files eingebunden.
+
+3.) Ebenfalls habe ich den JavaScript-Code ausgelagert in das File dishwish.js(befindet sich im
+	js Ordner). Nur den Code für die AJAX-Funktionen habe ich direkt in header.php inkludiert,
+	weil dieser nicht funktionierte, als ich ihn auslagerte.
+
+4.) Background - Bild komprimiert von 290 kB auf 70 kB mit Photoshop.
+
+5.) in File recipe.php: statt jeweils eine Query pro Ausgabeelement(Zubereitung, Bild, Name)aufzurufen, habe ich auf Ihre Empfehlung hin, nur eine Query verwendet und dann auf die	Attribute des Objekts zugegriffen mit $r->recipename, etc. .. - habe in keiner anderen Datei dieses Problem entdeckt.
+
+6.)in File cook.php: um den Ladevorgang der Rezepte mit den gewünschten Zutatenkombis anzuzeigen, habe ich ein Loader-Image(ajaxloader.gif) eingefügt. Dieses wird angezeigt, wenn der Ladevorgang gestartet wird, und ebenfalls wenn eine neue Zutat ausgewählt wurde und der Vorgang erneut gestartet wird. Das gif verschwindet sobald der Ladevorgang abgeschlossen ist.
+
+7.) Ich habe die Labels der Checkboxen(cook.php) und der Radiobuttons(category.php) klickbar gemacht, um die Bedienung zu erleichtern.
+	Außerdem werden zusätzlich zu den Bildern, die Namen der Rezepte angezeigt. 
+
+8.) in insert.php: habe wie empfohlen die Inserts mit Transaktionen umgesetzt, mit den PDO-Funktionen beginTransaction(), commit() und rollback().

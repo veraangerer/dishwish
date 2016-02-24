@@ -1,0 +1,421 @@
+body{
+
+   font-family: "Kalinga";
+   font-size: 20px;
+   color: black;
+   margin:0 auto;
+   font-style: normal;
+   font-weight: 400;
+}
+/*Überschriften und Text*/
+h1{
+    text-align:center;
+    font-weight: bold;
+    padding: 20px;
+    color: #3fa52b;
+    text-decoration: none;
+   
+}
+
+h2{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-top: 5%
+     
+}
+
+h3 {
+    color: #d9d3d6;
+    padding-top: 1%;;
+}
+
+a, a:hover, a:visited, a:link{
+    text-decoration:none;
+}
+
+.item a{
+    color:black;
+    font-weight: bold;
+}
+
+.impressum p{
+    font-weight:bold;
+    text-align: left;
+    font-weight:lighter;
+    padding: 0 0 10px 30px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 1.0em;
+    padding: 0 0 0 30px;
+}
+
+#wrap{
+
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+}
+/*Logo*/
+
+#logo {
+    border-radius: 25px;
+    background: #3fa52b;/*#8AC007;*/
+    width: 150px;
+    height: 90px;
+    margin: 1% 0 -3% 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1%;
+
+}
+
+#logo img
+{
+    margin-top: -15%;
+}
+
+
+/*Navi*/
+#mainnav{
+    background-color:#a9121c;
+    width: 80%;
+    height:70px;
+    border-radius: 25px;
+    margin: 0 10% 5% 10%;
+    padding-top: 1%;
+}
+
+#mainnav ul{
+
+    list-style: none;
+    display:inline;
+    padding: 0 0 0 15%;
+
+}
+
+#mainnav ul li{
+
+    display:inline;
+    font-family: "Kalinga";
+    font-size: 1.0em;
+    font-variant:small-caps;
+    color:#fffffe;
+    padding-right: 3%;
+}
+
+#mainnav a, #mainnav a:hover, #mainnav a:active, #mainnav a:visited{
+   color:#fffffe;
+   text-decoration: none;
+    
+}
+
+.navbar-toggle{
+    background-color: #3fa52b;;
+    border-color:white;
+}
+
+.collapse.in {
+  display: block;
+  visibility: visible;
+  background-color: #a9121c;
+}
+
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
+
+
+
+#slogan{
+    background-color:#434444;
+    width: 50%;
+    height:40px;
+    border-radius: 20px;
+    margin: -2% 25% 0 25%;
+    text-align: center;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    margin: 3%;
+}
+/*Content*/
+
+.content{
+    background-color: #ecebec;
+    opacity: 0.6;
+    width: 70%;
+    height:auto;
+    margin: -2% 0 0 12%;
+}
+
+.content img{
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+    width:40%;
+    margin-left: 40px;
+
+}
+
+#gallery{
+    list-style: none;
+}
+
+#gallery li{
+    display: inline;
+}
+
+
+.ingredients{
+    list-style: none;
+    margin: -30% 0 0 50%;
+
+}
+
+.ingredients p{
+    font-style: italic;
+    margin-top: 30px;
+}
+
+#ingredientslist li{
+    display: block;
+    padding: 1%
+}
+
+.content p{
+    margin: 3% 10% 0 10%;
+    text-align: left;
+    font-weight: lighter;
+    padding: 0 0 5% 0;
+    
+}
+
+form{
+   padding-bottom: 5%;
+   color: #3fa52b;
+}
+
+form input{
+   margin: 30px 0 0 35%;
+   color: black;
+   background-color: #C7C7C7;
+   border: 1px solid grey;
+   padding:1%;
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+}
+
+textarea, select{
+   margin: 20px 0 0 35%; 
+}
+
+.recipeform label{
+    margin: 20px 0 0 35%; 
+}
+
+.login{
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 1%;
+    background-color: #3fa52b;
+    color: white; 
+    margin: 40px 0 0 330px;
+}
+
+.showrecipe,.insertRecipe,.addIng {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 1%;
+    background-color: #3fa52b;
+    color: white; 
+    margin: 3% 0 3% 40%;
+}
+
+form img{
+    width: 300px;
+    margin-left:34%
+}
+
+form ul{
+    list-style: none;
+
+}
+
+form ul li{
+    display: inline;
+    padding: 3px;
+}
+
+
+#filters-toggle{
+    font-weight: bold;
+    text-align: center;
+     -moz-border-radius:20px; /* Firefox */
+    -webkit-border-radius: 20px; /* Safari, Chrome */
+    -khtml-border-radius: 20px; /* KHTML */
+    border-radius: 20px; /* CSS3 */
+    background-color: #3fa52b;;
+    color: white;
+    margin: 0 0 5% 35%; 
+    padding: 1%;
+}
+
+.impressum img{
+    width: 30%;
+    float: right;
+    margin: 10% 20% 0 0;
+    
+}
+
+
+.recipelinklink:hover, .recipelink:active, .recipelink:visited, .recipelink:link{
+    color: black;
+    font-weight: bold; 
+}
+
+/*Gallery Masonry*/
+.item { width: 35%; }
+
+
+/*Footer*/
+.footer{
+    color:#fffffe;
+    background-color: #3fa52b;
+    height: auto;
+    width: 70%;
+    margin: 0 0 0 12%;
+    padding-bottom: 10%;
+}
+
+
+#footerleft ul {
+    list-style: none;
+    padding: 5px 0 0 50px;
+
+}
+
+#footerleft a, #footerleft a:hover, #footerleft a:active, #footerleft a:visited{
+    color:#fffffe;
+    text-decoration: none;
+
+}
+
+#footerleft{
+    float:left;
+
+}
+
+
+#footercenter{
+  float:left;
+  margin-left: 10%;
+    
+}
+
+#footerright.span4{
+    margin-left:3%;
+}
+
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li{
+    display: inline;
+}
+
+.footer img{
+    width:40px;
+    margin: 3% 2.5% 0 0;
+    
+}
+
+.span4{
+    margin-left: 4%;
+}
+
+.span2{
+    margin-right: 10%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1048px) {
+    
+    #slogan{ margin: -30px 0 0 150px; height: auto;}
+    #mainnav{width:80%;}
+    #mainnav ul{display:table}
+    .content{margin-top:5%;}
+    form img{margin-left:23%;}
+
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+
+    #slogan {
+        height: auto;
+        margin: -200px 140px;
+
+    }
+    #mainnav{width:80%;}
+     .content{margin-top: 25%;}
+    #mainnav ul li{display: block;}
+    .loginform{ width: 100px;}
+    .loginForm input{margin-left: 15%;}
+}
+
+@media only screen and (min-width: 241px) and (max-width: 667px) {
+          
+    #footercenter, #footerleft{display: none;}
+    #footerright{ width: 100%;}
+    h2{display: none;}
+    ul.share-buttons li{display: inline;}
+    #slogan{
+       height: auto;
+       margin: -200px 140px
+    }
+    #mainnav ul li{display: block;}
+    .content{margin-top: 35%; }
+    form img{width: 200px;}
+    .loginform{ width: 100px;}
+    .loginForm input{margin-left: 15%;}
+    
+	}
+
+@media only screen and (max-width: 240px) {
+    #footercenter, #footerleft{display: none;}
+    #footerright{ width: 100%; margin: 0 auto;}
+    h2{display: none;}
+    h1{font-size: 1.0em;}
+    ul.share-buttons li{display: inline;}
+    #slogan{display:none;}
+    .content{margin-top: 60%;}
+    #filters-toggle{margin-left:-0.5%;}
+
+}
+/*
+        Seite erstellt von
+        Vera Karl
+        E-Mail: vkarl-mmtb2014@fh-salzburg.ac.at
+        Erstellt als Multimediaprojekt 1 im SS 2014/2015 an der Fachhochschule Salzburg.
+
+        Studiengang: MultimediaTechnology
+        Fachhochschule Salzburg GmbH
+        Urstein Süd 1
+        A-5412 Puch/Salzburg
+        Österreich
+        Tel.: +43 (0)7289 8646
+        Fax: +43 (0)7289 8646-919
+        http://www.fh-salzburg.ac.at
+
+*/
